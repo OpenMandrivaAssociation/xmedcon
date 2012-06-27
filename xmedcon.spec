@@ -4,7 +4,7 @@
 %define staticname	%mklibname mdc -d -s
 
 Name:		xmedcon
-Version:	0.10.7
+Version:	0.11.0
 Release:	1
 Summary:	An open source toolkit for medical image conversion
 Group:		Graphics
@@ -57,7 +57,7 @@ programs that make use of the (X)MedCon library (libmdc).
 
 %prep
 %setup -q
-%patch0
+#patch0
 
 %build
 %configure2_5x
@@ -88,4 +88,3 @@ programs that make use of the (X)MedCon library (libmdc).
 %files -n %{staticname}
 %doc README COPYING COPYING.LIB
 %{_libdir}/*.a
-%{_libdir}/*.la
