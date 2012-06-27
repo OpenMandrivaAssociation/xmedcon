@@ -11,7 +11,6 @@ Group:		Graphics
 License:	GPLv2
 URL:		http://xmedcon.sourceforge.net
 Source0:	http://downloads.sourceforge.net/project/xmedcon/XMedCon-Source/%{version}/%{name}-%{version}.tar.bz2
-Patch0:		xmedcon-0.10.7-upstream-png15.patch
 BuildRequires:	gtk+2-devel
 
 %description
@@ -57,7 +56,6 @@ programs that make use of the (X)MedCon library (libmdc).
 
 %prep
 %setup -q
-#patch0
 
 %build
 %configure2_5x
