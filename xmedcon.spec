@@ -64,6 +64,8 @@ programs that make use of the (X)MedCon library (libmdc).
 %install
 %makeinstall_std
 
+rm -rf %{buildroot}%{_libdir}/*.la
+
 %files
 %defattr(-, root, root)
 %doc ChangeLog COPYING COPYING.LIB README REMARKS AUTHORS
