@@ -88,3 +88,18 @@ rm -rf %{buildroot}%{_libdir}/*.la
 %files -n %{staticname}
 %doc README COPYING COPYING.LIB
 %{_libdir}/*.a
+
+
+%changelog
+* Thu Jun 28 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 0.11.0-1
++ Revision: 807336
++ rebuild (emptylog)
+
+* Wed Jun 27 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 0.11.0-1
++ Revision: 807219
+- update to 0.11.0
+
+* Mon Dec 26 2011 Dmitry Mikhirev <dmikhirev@mandriva.org> 0.10.7-1
++ Revision: 745411
+- imported package xmedcon
+
