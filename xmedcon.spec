@@ -5,7 +5,7 @@
 
 Name:		xmedcon
 Version:	0.11.0
-Release:	1
+Release:	2
 Summary:	An open source toolkit for medical image conversion
 Group:		Graphics
 License:	GPLv2
