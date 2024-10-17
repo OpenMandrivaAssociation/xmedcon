@@ -9,7 +9,7 @@ Release:	2
 Summary:	An open source toolkit for medical image conversion
 Group:		Graphics
 License:	GPLv2
-URL:		http://xmedcon.sourceforge.net
+URL:		https://xmedcon.sourceforge.net
 Source0:	http://downloads.sourceforge.net/project/xmedcon/XMedCon-Source/%{version}/%{name}-%{version}.tar.bz2
 BuildRequires:	gtk+2-devel
 
